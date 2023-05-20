@@ -75,7 +75,8 @@ class ResolveurController extends Controller
      */
     public function show($id)
     {
-        //
+        //show the ids
+        //$resolveur=Resolveur::find($id);
     }
 
     /**
