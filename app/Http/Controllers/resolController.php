@@ -36,7 +36,7 @@ class resolController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
@@ -62,13 +62,7 @@ class resolController extends Controller
         return view('resolveurrs.edit',['resolveur'=>$resolveur]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+   
     public function update(Request $request, $id)
     {
         $request->validate([
@@ -106,12 +100,7 @@ class resolController extends Controller
                 return redirect('/home/resolveurs.profile');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+   
     public function destroy($id)
     {
         //
