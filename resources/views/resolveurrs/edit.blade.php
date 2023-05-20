@@ -21,6 +21,10 @@ use App\Models\User;
     <div class="modal-header" style="color:darkslateblue;">
       <h5 class="modal-title" style="margin-left:130px; " >Modifications des Informations </h5>
       
+      
+      
+      
+      
     </div>
   
       
