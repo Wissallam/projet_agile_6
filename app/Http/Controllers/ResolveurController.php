@@ -75,7 +75,9 @@ class ResolveurController extends Controller
      */
     public function show($id)
     {
-        //
+        //just testing the remote connection
+        //show the ids
+        //$resolveur=Resolveur::find($id);
     }
 
     /**
