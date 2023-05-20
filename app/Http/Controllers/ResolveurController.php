@@ -29,7 +29,6 @@ class ResolveurController extends Controller
         return view('resolveurs.create');
     }
 
-    
     public function store(Request $request)
     { 
         $request->validate([
@@ -119,12 +118,6 @@ class ResolveurController extends Controller
     }
     
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
         $resolveur= Resolveur::findOrfail($id);
@@ -147,8 +140,6 @@ class ResolveurController extends Controller
     public function deletee($id)
   
     {   
-        
-        
         $resolveur= Resolveur::findOrfail($id);
         $resolveur->delete="Yes";
         $user=User::where('id',$resolveur->user_id)->first();
