@@ -94,6 +94,8 @@ class ReclameurController extends Controller
     {
         $reclameur=Reclameur::findOrFail($id);
         return view('reclameurs.edit',['reclameur'=>$reclameur]);
+        //retourner la view concernant la modification des reclameurs
+        
     }
     
     /**
@@ -121,6 +123,7 @@ class ReclameurController extends Controller
             'name'=>'required',
                 'password'=>'confirmed',
            
+                //validators pour checker les requirements 
   
         ]
         );
