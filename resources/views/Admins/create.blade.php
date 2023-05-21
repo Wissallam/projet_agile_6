@@ -3,6 +3,7 @@
     
   <head>
    
+  <!-- toutes les features concernant l'admin ont été accomplies -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gestion des incidents</title>
