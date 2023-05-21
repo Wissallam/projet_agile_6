@@ -75,3 +75,4 @@ Route::get('/deletee/{id}','App\Http\Controllers\resolveurController@deletee')->
 Route::get('/deleteee/{id}','App\Http\Controllers\projectController@deleteee')->name('deleteee');
 Route::get('/deleteeee/{id}','App\Http\Controllers\clientController@deleteeee')->name('deleteeee');
  
+//
