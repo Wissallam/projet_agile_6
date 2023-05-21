@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Gate;
 class AuthServiceProvider extends ServiceProvider
 {
     /**
+     * one more comment 
      * The policy mappings for the application.
      *
      * @var array<class-string, class-string>
