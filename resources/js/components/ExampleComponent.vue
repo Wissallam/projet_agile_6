@@ -14,6 +14,9 @@
     </div>
 </template>
 
+
+// Some comments 
+
 <script>
     export default {
         mounted() {

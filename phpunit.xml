@@ -17,6 +17,8 @@
             <directory suffix=".php">./app</directory>
         </include>
     </coverage>
+
+    <!-- some comment  -->
     <php>
         <server name="APP_ENV" value="testing"/>
         <server name="BCRYPT_ROUNDS" value="4"/>
