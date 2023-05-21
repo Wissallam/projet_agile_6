@@ -29,7 +29,7 @@ return [
     */
 
     'connections' => [
-
+        // i just add this comment here 
         'pusher' => [
             'driver' => 'pusher',
             'key' => env('PUSHER_APP_KEY'),

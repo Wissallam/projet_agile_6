@@ -13,9 +13,9 @@ use App\Models\User;
 
 </header>
 
+
 <!-- this is the view of a resolveur -->
-             
-    
+ main
 <div class="modal-dialog" style="background-color:darkslateblue;width:500px;" >
   <div  class="modal-content" style="border-radius:60px;">
     <div class="modal-header" style="color:darkslateblue;">
@@ -55,6 +55,10 @@ use App\Models\User;
                     @endif
                     </div>
 
+                       
+                       
+                       
+                       
                        
                       <br>
                       <div class="mb-3">
