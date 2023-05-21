@@ -10,11 +10,7 @@ use Illuminate\Support\Facades\Hash;
 
 class ReclameurController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+ 
     public function index()
     {$reclameurs=Reclameur::all();
        
