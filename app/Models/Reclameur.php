@@ -12,10 +12,12 @@ class Reclameur extends Model
     }
     public function client(){
         return $this->hasOne('App\Client');
+        //retourner le client
     }
     public function tickets(){
         
         return $this->hasOne('App\Ticket');
+        //retourner les tickets
     }
 
     /**
