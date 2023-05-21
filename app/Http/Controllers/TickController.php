@@ -25,7 +25,7 @@ class TickController extends Controller
 
     }
 
-   
+
     public function create()
     {
         //
@@ -39,6 +39,7 @@ class TickController extends Controller
      */
     public function store(Request $request)
     {
+        //
         //
     }
 
@@ -77,7 +78,7 @@ class TickController extends Controller
         $ticket=Ticket::findOrFail($id);
                  $ticket->statut=$request->input('statut');
                  $ticket->derniere_modification= Carbon::now()->toDateTimeString();
-                 
+
 
                 $ticket->update();
                 return redirect('/ticks');
@@ -99,7 +100,7 @@ class TickController extends Controller
         $ticket=Ticket::where('titre','like',"%$q%")->OrWhere('categorie','like',"%$q%")
         ->OrWhere('priorite','like',"%$q%")->OrWhere('statut','like',"%$q%")->OrWhere('situation','like',"%$q%")
          ->paginate(6);
-      
+
     return view('ticks.search',['tickets'=>$ticket]);
 
     }
