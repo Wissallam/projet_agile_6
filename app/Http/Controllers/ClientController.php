@@ -88,13 +88,7 @@ class ClientController extends Controller
         return view('clients.edit',['client'=>$client]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+ 
     public function update(Request $request, $id)
 {    $request->validate([
     'name'=>'required',
@@ -117,12 +111,7 @@ class ClientController extends Controller
         return redirect('/clients');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+ 
     public function destroy($id)
     {
         while( $reclameurs=Reclameur::where('client_id',$id)->first()){
