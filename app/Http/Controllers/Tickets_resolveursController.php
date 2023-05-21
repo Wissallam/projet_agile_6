@@ -15,7 +15,7 @@ class Tickets_resolveursController extends Controller
      */
     public function index()
     {
-        //
+        //fonction index vide
     }
 
     /**
@@ -35,7 +35,7 @@ class Tickets_resolveursController extends Controller
      */
     public function update(Request $request,$id)
     {
-    //
+    //fonction update the request
        
     }
 
