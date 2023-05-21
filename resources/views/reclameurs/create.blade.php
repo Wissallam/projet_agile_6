@@ -13,6 +13,8 @@ use App\Models\Client;
     <h2 class="mb-0 p-1">Tables</h2>
   </div>
 
+<!-- the create view was modified -->
+
 </header>
 <div id="div_top_hypers">
     <div class="bg-white" >
