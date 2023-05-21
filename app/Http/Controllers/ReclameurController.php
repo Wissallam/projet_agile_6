@@ -81,7 +81,7 @@ class ReclameurController extends Controller
      */
     public function show($id)
     {
-        //
+        //this function shows the ids
     }
 
     /**
