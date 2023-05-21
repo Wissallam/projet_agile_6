@@ -12,6 +12,7 @@
 <form method="POST" action="{{route('admins.store')}}">
     @csrf
     <div>
+      <!-- the div responsible for username -->
         <label for='username'>username</label>
         <input name="username" id="username" type="text">
     </div>
