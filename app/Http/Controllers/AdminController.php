@@ -19,6 +19,7 @@ class AdminController extends Controller
     {
         return view('admins.create');
     }
+    
      /**
      * Store a newly created resource in storage.
      *
