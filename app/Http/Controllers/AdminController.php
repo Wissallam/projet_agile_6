@@ -6,11 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Admin;
 class AdminController extends Controller
 {
-    /**
-     * redirect admin after login
-     *
-     * @return \Illuminate\View\View
-     */
+   
 
 
 
