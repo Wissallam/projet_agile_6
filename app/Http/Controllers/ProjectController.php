@@ -16,7 +16,7 @@ class ProjectController extends Controller
     public function index()
     {
         $projects=Project::all();
-       
+
         return view('projects.index',compact('projects'));
     }
 
@@ -30,6 +30,7 @@ class ProjectController extends Controller
         $resolveurs=Resolveur::all();
         $clients=Client::all();
         return view('projects.create',compact('resolveurs','clients'));
+        ////
     }
 
     /**
@@ -40,12 +41,12 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        
+
         $request->validate([
             'name'=>'required',
-           
-            
-            
+
+
+
         ]
     );
                 $client = Client::where('name',$request->input('client'))->first();
@@ -54,12 +55,12 @@ class ProjectController extends Controller
                 $j=$resolveur->id;
               $project=new Project();
             $project->name=$request->input('name');
-            
-            
+
+
             $project->client_id=$i;
             $project->resolveur_id=$j;
-           
-   
+
+
             $project->save();
             return redirect('/projects');
     }
@@ -101,13 +102,13 @@ class ProjectController extends Controller
         ]
         );
          $project=Project::findOrFail($id);
-        
-                
+
+
          $resolveur = Resolveur::where('name',$request->input('resolveur'))->first();
          $j=$resolveur->id;
                 $project->name=$request->input('name');
                 $project->resolveur_id=$j;
-               
+
                 $project->update();
                 return redirect('/projects');
     }
@@ -121,26 +122,26 @@ class ProjectController extends Controller
     public function destroy($id)
     {
         $project= Project::findOrfail($id);
-      
+
         Project::destroy($id);
-       
+
         return redirect('/projects');
     }
     public function ssssearch(){
         $q=request()->input('q');
 
         $project=Project::where('name','like',"%$q%")
-        
+
          ->paginate(6);
-      
+
     return view('projects.ssssearch',['projects'=>$project]);
 
     }
     public function deleteee($id)
-  
-    {   
-        
-        
+
+    {
+
+
         $project= Project::findOrfail($id);
         $project->delete="Yes";
         $project->save();
