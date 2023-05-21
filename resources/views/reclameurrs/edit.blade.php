@@ -13,7 +13,7 @@ use App\Models\User;
 
 </header>
 
-
+<!-- this is the view of a resolveur -->
              
     
 <div class="modal-dialog" style="background-color:darkslateblue;width:500px;" >

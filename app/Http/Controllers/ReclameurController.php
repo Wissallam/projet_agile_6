@@ -19,6 +19,7 @@ class ReclameurController extends Controller
     {$reclameurs=Reclameur::all();
        
         return view('reclameurs.index',compact('reclameurs'));
+        //return the reclameur view index
     }
 
     /**
@@ -29,6 +30,7 @@ class ReclameurController extends Controller
     public function create()
     { $clients=Client::all();
         return view('reclameurs.create',compact('clients'));
+        //ajouter la partie de creation pour le reclameur
     }
 
     /**
@@ -48,6 +50,7 @@ class ReclameurController extends Controller
             'is_chef_reclameur'=>'required',
             
         ]
+        //les validateurs de l'email et le le nom
     );
             
             if($request->has('image')){
