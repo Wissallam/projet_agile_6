@@ -8,6 +8,7 @@ use App\Models\Client;
 
 @section('content')
 
+<!-- modification in the search page -->
 
     <!-- Page Header-->
     <header class="bg-white shadow-sm px-4 py-3 z-index-20">
