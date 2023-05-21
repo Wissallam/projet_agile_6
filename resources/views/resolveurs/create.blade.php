@@ -9,6 +9,8 @@
     <h2 class="mb-0 p-1">Tables</h2>
   </div>
 
+  <!--modification dans la view de la création des résolveurs-->
+
 </header>
 <div id="div_top_hypers">
     <div class="bg-white" >
