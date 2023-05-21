@@ -11,7 +11,7 @@ class AdminController extends Controller
      *
      * @return \Illuminate\View\View
      */
-   
+
 
 
      /**
@@ -37,3 +37,5 @@ class AdminController extends Controller
         $admin->save();
     }
 }
+
+//
