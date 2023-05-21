@@ -8,15 +8,17 @@ use App\Models\Reclameur;
 
 @section('content')
 
+
+
 <div class="content-inner w-100">
-    <!-- Page Header-->
+    <!-- Page Header update-->
     <header class="bg-white shadow-sm px-4 py-3 z-index-20">
         <div class="container-fluid px-0">
           <h2 class="mb-0 p-1">Tickets</h2>
           
         </div>
       </header>
-      <!-- Breadcrumb-->
+      <!-- le Breadcrumb-->
       <div id="div_top_hypers">
       <div class="bg-white" >
         <div class="container-fluid">
@@ -38,7 +40,7 @@ use App\Models\Reclameur;
       
 </div>
 
-    <!-- Page Header-->
+    <!-- update Page Header-->
    
  
     
