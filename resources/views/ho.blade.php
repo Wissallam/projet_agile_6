@@ -30,6 +30,7 @@
 			content="width=device-width, initial-scale=1, maximum-scale=1"
 		/>
 
+		
 		<!-- Google Font -->
 		<link
 			href="{{url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap')}}"
