@@ -164,15 +164,7 @@ use App\Models\Resolveur;
      
    
      
-        <!-- Bar Charts-->
-     
-   
-     
-        <!-- Doughnut Chart -->
-      
-        <!-- Polar Chart-->
-     
-        <!-- Radar Chart-->
+       
   
       </div>
     </div>
