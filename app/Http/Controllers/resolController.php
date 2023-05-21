@@ -14,6 +14,10 @@ class resolController extends Controller
      */
     public function index()
     {
+
+
+
+    ////
         //
     }
 
@@ -25,6 +29,7 @@ class resolController extends Controller
      */
     public function create()
     {
+    //////
         //
     }
 
